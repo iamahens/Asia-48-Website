@@ -1,0 +1,372 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  
+}
+body{
+    /* background-color: #202834; */
+    background-color: linear-gradient(transparent,#202834);
+}
+    
+
+      
+  section{
+    /* padding: 100px 200px; */
+    padding: 53px 0;
+}
+svg path title{
+    font-size: larger;
+    font-family: cursive;
+    font-weight: bolder;
+
+}
+svg path{
+    fill: #00394f;
+    stroke: #eee;
+    stroke-width: .25;
+}
+svg path:hover{
+    fill: #006284;
+    transition: 0.6s;
+    
+}
+   path.INDONESIA:hover{
+    fill: red;
+    stroke: white;
+    stroke-width: 0.6;
+    
+   }
+   path.MALAYSIA:hover{
+    fill: goldenrod;
+    stroke: blue;
+    stroke-width: 0.6;
+    
+   }
+   path.CYPRUS:hover{
+    fill: orange;
+    stroke: rgba(3, 110, 3, 0.904);
+    stroke-width: 0.6;
+    
+   }
+   path.INDIA:hover{
+    fill: rgb(244, 159, 0);
+    stroke: rgba(3, 110, 3, 0.904);
+    stroke-width: 1.8;
+    
+   }
+
+   path.CHINA:hover{
+    fill: rgb(250, 22, 22) ;
+    stroke:rgb(244, 187, 0) ;
+    stroke-width: 0.8;
+    
+   }
+   path.ISRAEL:hover{
+    fill: rgb(24, 70, 148);
+    stroke: white;
+    stroke-width: 0.8;
+    
+   }
+
+   path.LEBANON:hover{
+    fill: white;
+    stroke: green;
+    stroke-width: 0.8;
+    
+   }
+   path.PAKISTAN:hover{
+    fill: GREEN;
+    stroke: white;
+    stroke-width: 0.8;
+    
+   }
+
+   path.SYRIA:hover{
+    fill: white;
+    stroke: black;
+    stroke-width: 0.8;
+    
+   }
+
+   path.S_KOREA:hover{
+    fill: blue;
+    stroke: red;
+    stroke-width: 0.8;
+    
+   }
+
+   path.N_KOREA:hover{
+    fill: red;
+    stroke: blue;
+    stroke-width: 0.8;
+    
+   }
+
+   path.BHUTAN:hover{
+    fill: yellow;
+    stroke: orangered;
+    stroke-width: 1.0;
+    
+   }
+   path.OMAN:hover{
+    fill: white;
+    stroke: green;
+    stroke-width: 0.8;
+    
+   }
+   path.UZBEKISTAN:hover{
+    fill: rgb(71, 168, 242);
+    stroke: greenyellow;
+    stroke-width: 1.0;
+    
+   }
+   path.KAZAKHSTAN:hover{
+    fill: rgb(5, 173, 251);
+    stroke: goldenrod;
+    stroke-width: 1.0;
+    
+   }
+   path.TAJIKISTAN:hover{
+    fill: rgb(198, 0, 0);
+    stroke: green;
+    stroke-width: 1.0;
+    
+   }
+
+   path.MONGOLIA:hover{
+    fill: rgb(242, 53, 53);
+    stroke: blue;
+    stroke-width: 0.8;
+    
+   }
+
+   path.VEITNAM:hover{
+    fill: YELLOW;
+    stroke: red;
+    stroke-width: 0.8;
+    
+   }
+
+   path.CAMBODIA:hover{
+    fill: white;
+    stroke: blue;
+    stroke-width: 1.2;
+    
+   }
+  
+   path.UAE:hover{
+    fill: white;
+    stroke: red;
+    stroke-width: 0.8;
+    
+   }
+
+   path.GEORGIA:hover{
+    fill: goldenrod;
+    stroke: black;
+    stroke-width: 0.8;
+    
+   }
+
+   path.AZERBAIJAN:hover{
+    fill: rgb(121, 252, 125);
+    stroke: rgb(239, 62, 62);
+    stroke-width: 0.8;
+    
+   }
+
+   path.TURKEY:hover{
+    fill:  red;
+    stroke:  white ;
+    stroke-width: 1.6;
+    
+   }
+
+   path.LAOS:hover{
+    fill:  red;
+    stroke:  white ;
+    stroke-width: 1.6;
+    
+   }
+   path.KYRGYZSTAN:hover{
+    fill:  rgb(255, 55, 0);
+    stroke:  yellow ;
+    stroke-width: 1.6;
+    
+   }
+   path.ARMENIA:hover{
+    fill:  yellow;
+    stroke:  blue ;
+    stroke-width: 1.6;
+    
+   }
+   path.IRAQ:hover{
+    fill:  red;
+    stroke: black ;
+    stroke-width: 1.6;
+    
+   }
+   path.IRAN:hover{
+    fill:  green;
+    stroke:  white ;
+    stroke-width: 1.6;
+    
+   }
+   path.QATAR:hover{
+    fill:  purple;
+    stroke:  white ;
+    stroke-width: 1.0;
+    
+   }
+
+   path.SAUDI_ARABIA:hover{
+    fill:  GREEN;
+    stroke:  white;
+    stroke-width: 2.0;
+    
+   }
+   path.THAILAND:hover{
+    fill:  rgb(82, 4, 82);
+    stroke:  rgb(120, 23, 23) ;
+    stroke-width: 1.6;
+    
+   }
+   path.AFGANISTAN:hover{
+    fill:red;
+    stroke:  black ;
+    stroke-width: 1.6;
+
+    
+   }
+
+   path.JAPAN:hover{
+    fill:white;
+    stroke:  red ;
+    stroke-width: 1.6;
+    
+    
+   }
+   
+   path.JORDAN:hover{
+    fill:green;
+    stroke:  black ;
+    stroke-width: 1.6;
+    
+    
+   }
+   path.TURKMENISTAN:hover{
+    fill:rgb(228, 106, 6);
+    stroke:  green ;
+    stroke-width: 1.6;
+    
+    
+   }
+
+   path.SRILANKA:hover{
+    fill:rgb(236, 172, 10);
+    stroke:  rgb(228, 41, 41) ;
+    stroke-width: 1.6;
+    
+    
+   }
+
+   path.NEPAL:hover{
+    fill: darkblue ;
+    stroke:  RED ;
+    stroke-width: 1.6; 
+    
+   }
+
+   path.BANGLADESH:hover{
+    fill: green ;
+    stroke:  black ;
+    stroke-width: 1.6; 
+   }
+   path.MAYANNMAR:hover{
+    fill: yellow ;
+    stroke:  green ;
+    stroke-width: 1.6; 
+    
+   }
+   path.SINGAPORE:hover{
+    fill: rgba(253, 33, 33, 0.749) ;
+    stroke:  white ;
+    stroke-width: 1.6;  
+   }
+
+   path.MACAU:hover{
+    fill: seagreen ;
+    stroke:  seagreen ;
+    stroke-width: 1.6; 
+   }
+
+   path.HONG_KONG:hover{
+    fill: white ;
+    stroke:  white ;
+    stroke-width: 1.6;
+   }
+
+   path.YEMEN:hover{
+    fill: white ;
+    stroke:  black;
+    stroke-width: 1.6;
+   }
+
+   path.EAST_TIAMOR:hover{
+    fill: rgb(236, 202, 49) ;
+    stroke:  black;
+    stroke-width: 1.6;
+   }
+
+   path.PHILIPPINES:hover{
+    fill: rgb(247, 69, 38)  ;
+    stroke: darkblue;
+    stroke-width: 1.6;
+   }
+
+
+
+
+
+
+
+   @media screen and (max-width: 785px){
+    section{
+      padding: 25px 20px;
+      margin: 0 70px 0 20px;
+  }
+   }
+
+   @media screen and (max-width: 1100px){
+    section{
+      padding: 25px 20px;
+      margin: 0 70px 0 20px;
+  }
+   }
+
+
+   
+
+   
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

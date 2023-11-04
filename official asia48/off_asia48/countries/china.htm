@@ -1,0 +1,309 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head> <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap" rel="stylesheet">
+<style> 
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+
+}
+
+.china{
+    width: 100%;
+    height: 100vh;
+    background-image: url(china.jpg);
+    background-size: cover;
+    background-position: center
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+    background-image: linear-gradient(white, white);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -750px 0;
+    animation: backcolor 5s linear infinite alternate;
+}
+
+@keyframes backcolor{
+    100%{
+        background-position: 0 0; 
+    }
+
+    /* animation khtm idhrrr for china */
+
+}
+
+.box img{
+    width: 50%;
+    height: 8%;
+    margin-top: 10px;
+}
+
+.box{
+    border-radius: 8px;
+ background-image: url(china1.jpg);
+ box-shadow: 10px 10px 10px 10px rgb(138, 138, 73);
+ 
+ color: black;
+ margin-top: 10px;
+ margin: auto;
+  width: 60%;
+  height: 100%;
+  padding: 10px;
+}
+
+.box h1, p{
+    font-family: 'Nunito', sans-serif;
+}
+
+/* yha se for the boxeaaaa  */
+* { 
+  margin : 0;
+  padding: 0;
+  box-sizing : border-box;
+  font-familly : "Poppins", sans-serif;
+}
+
+.container {
+  margin-top: 80px;
+  margin-bottom: 100px;
+  margin-left: 125px;
+  position : relative;
+  width : 1100px;
+  display : flex;
+  align-items : center;
+  justify-content : center;
+  flex-wrap: warp;
+  padding : 30px;  
+}
+
+.container .card {
+  position: relative;
+  max-width : 300px;
+  height : 215px;  
+  background-color : #fff;
+  margin : 30px 10px;
+  padding : 20px 15px;
+  display : flex;
+  flex-direction : column;
+  box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+  transition : 0.3s ease-in-out;
+  border-radius : 15px;
+}
+.container .card:hover {
+  height : 320px;    
+}
+
+
+.container .card .image {
+    border-radius: 15px;
+  position : relative;
+  width : 260px;
+  height : 260px;
+  
+  top : -40%;
+  left: 8px;
+  box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+  z-index : 1;
+}
+
+.container .card .image img {
+  max-width : 100%;
+  border-radius : 15px;
+}
+
+.container .card .content {
+  font-size: small;
+  position : relative;
+  top : -185px;
+  padding : 10px 15px;
+  color : #111;
+  text-align : center;
+  visibility : hidden;
+  opacity : 0;
+  transition : 0.3s ease-in-out;
+    
+}
+
+.container .card:hover .content {
+   margin-top : 30px;
+   visibility : visible;
+   opacity : 1;
+   transition-delay: 0.2s;
+  
+}
+/* end of the places 
+faq box */
+
+#accordian{
+   margin: 80px auto;
+    width: 800px;
+}
+
+#accordian li{
+    list-style: none;
+    width: 100%;
+    margin-bottom:20px;
+    background-color: rgb(214, 214, 214);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#accordian li label{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    color: rgb(85, 3, 3);
+
+}
+#accordian li label span{
+    transform: rotate(90deg);
+    font-size: 22px;
+    
+}
+
+#accordian label + input[type ="radio"]{
+    display: none;
+
+}
+
+#accordian .answer{
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+#accordian label + input[type ="radio"]:checked + .answer{
+    max-height: 400px;
+}
+
+h3{
+
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+
+    align-content: center;
+    margin-top: 50px;
+}
+
+</style>
+<body>
+    <div class="china"> </div>
+    <div class="title"> <h1>CHINA </h1></div>
+
+    <p> <br>
+    </p>
+
+    <div class="box">
+        <h1> A little something about China: </h1> <br>
+        <p> China (Chinese: 中国; pinyin: Zhōngguó), officially the People's Republic of China (PRC),[k] is a country in East Asia. It is the world's most populous country, with a population exceeding 1.4 billion, slightly ahead of India. </p> <p> spans the equivalent of five time zones and borders fourteen countries by land,[l] the most of any country in the world, tied with Russia. With an area of approximately 9.6 million square kilometers (3,700,000 sq mi), it is the world's third-largest country by total land area.[m] The country consists of 22 provinces,[n] five autonomous regions, four municipalities, and two special administrative regions (Hong Kong and Macau). The national capital is Beijing, and the most populous city and largest financial center are Shanghai.
+
+            Modern Chinese trace their origins to a cradle of civilization in the fertile basin of the Yellow River in the North China Plain. The semi-legendary Xia dynasty in the 21st century BCE and the well-attested Shang and Zhou dynasties developed a bureaucratic political system to serve hereditary monarchies or dynasties. 
+            Chinese writing, Chinese classic literature, and the Hundred Schools of Thought emerged during this period and influenced China and its neighbors for centuries to come. <br>In the third century BCE, Qin Shi Huang founded the first Chinese empire, the short-lived Qin dynasty.
+            
+             The Qin was followed by the more stable Han dynasty (206 BCE–220 CE), which established a model for nearly two millennia in which the Chinese empire was one of the world's foremost economic powers. </p> <p> empire expanded, fractured, and reunified; was conquered and reestablished; absorbed foreign religions and ideas; and made world-leading scientific advances, such as the Four Great Inventions: gunpowder, paper, the compass, and printing. After centuries of disunity following the fall of the Han, the Sui (581–618) and Tang (618–907) dynasties reunified the empire. 
+            
+            <br>
+            The multi-ethnic Tang welcomed foreign trade and culture that came over the Silk Road and adapted Buddhism to Chinese needs. The early modern Song dynasty (960–1279) became increasingly urban and commercial. The civilian scholar-officials or literati used the examination system and the doctrines of Neo-Confucianism to replace the military aristocrats of earlier dynasties. The Mongol invasion established the Yuan dynasty in 1279, but the Ming dynasty (1368–1644) re-established Han Chinese control. The Manchu-led Qing dynasty nearly doubled the empire's territory and established a multi-ethnic state that was the basis of the modern Chinese nation, but suffered heavy losses to foreign imperialism in the 19th century.</p>
+       
+    </div> 
+
+    <!-- card section  -->
+    <div class = container>
+        <div class = card>
+          <div class = image>
+            <img href = "#" src =gwoc.jpg>
+          </div>
+          <div class = content>
+            <h3>This is content</h3>
+            <p>DIn publishing and graphic design,           Lorem ipsum is a placeholder text               commonly used to demonstrate the visual         form of a document or a typeface without         relying on meaningful content.</p>
+          </div>
+        </div>
+        <div class = card>
+            <div class = image>
+              <img href = "#" src =imperial.jpg>
+            </div>
+            <div class = content>
+              <h3>Forbidden city</h3>
+              <p>DIn publishing and graphic design,           Lorem ipsum is a placeholder text               commonly used to demonstrate the visual         form of a document or a typeface without         relying on meaningful content.</p>
+            </div>
+          </div> 
+          <div class = card>
+            <div class = image>
+              <img href = "#" src =gwoc.jpg>
+            </div>
+            <div class = content>
+              <h3>This is content</h3>
+              <p>DIn publishing and graphic design,           Lorem ipsum is a placeholder text               commonly used to demonstrate the visual         form of a document or a typeface without         relying on meaningful content.</p>
+            </div>
+          </div>     
+      </div>
+
+<!-- faq box  -->
+
+<ul id="accordian">  
+    <h3>FAQ </h3> 
+     <li> 
+       <label for="first"> What is so spacial about China?   <span> &#x3e;</span>  </label>  
+     <input type="radio" name="accordian" id="first" checked>
+     <div class="answer"> 
+         <p> China is the world's third biggest country by territory, and it has the largest population. It’s home to one of the oldest civilizations on earth with a unique and sophisticated culture.
+ 
+             It has developed at record speed to become the second largest economy in the world, and it holds innumerable attractions for tourists to explore. </p>
+     </div>
+     </li>
+ 
+ <li>    
+ 
+     <label for="second"> Fun facts about China.   <span> &#x3e;</span>  </label>  
+     <input type="radio" name="accordian" id="second" >
+     <div class="answer"> 
+         <p> 1. China is officially known as the People’s Republic of China.
+ 
+             2. As of September 2020, China is the most populated country in the world with over 1.4 billion people (1,439,323,776). This is based on Worldometer elaboration of the latest United Nations data.
+             
+             3. Mandarin is not the only language in China. There are others such as Yue, Wu, Minbei, Minnan, Xiang, Gan and Hakka. Some regions in China also have their own dialects.
+             
+             4. China is considered a “coconut culture”. Chinese people present a stony, formal exterior, but they are actually as warm and welcoming as other cultures. Close friendships and relationships in China are earned over time compared to Western countries. </p>
+     </div> </li>
+ 
+    <li><label for="third"> Why you should add China to your bucket list?   <span> &#x3e;</span>  </label>  
+     <input type="radio" name="accordian" id="third">
+     <div class="answer"> 
+         <p> It is the most populated country in the world, with charming and captivating citizens. It is also one of the leading political and cultural forces that helped shape our world. China also has a rich and beautiful history, with people more concentrated on learning and inventing, rather than conquering </p>
+     </div>
+ </li>
+ </ul>
+    
+</body>
+</html>
